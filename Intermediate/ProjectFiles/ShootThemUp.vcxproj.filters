@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ShootThemUp.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{19F2E3E6-0020-4835-8630-D1AB6414C153}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ShootThemUp.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ShootThemUpEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B0AE7A75-1C75-4FA8-B4BA-34DE6DA130B4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ShootThemUp">
+      <UniqueIdentifier>{B0A1C185-8394-438C-AC2B-A72B3AA1B1E4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ShootThemUp\ShootThemUp.Build.cs">
+      <Filter>Source\ShootThemUp</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ShootThemUp\ShootThemUp.cpp">
+      <Filter>Source\ShootThemUp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShootThemUp\ShootThemUp.h">
+      <Filter>Source\ShootThemUp</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShootThemUp\Private">
+      <UniqueIdentifier>{01522643-CE48-4467-BE7C-4E6CD5C1D4F4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShootThemUp\Private\STUGameModeBase.cpp">
+      <Filter>Source\ShootThemUp\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ShootThemUp\Public">
+      <UniqueIdentifier>{9D6DF054-FE9C-41A3-85D4-60EC87478274}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShootThemUp\Public\STUGameModeBase.h">
+      <Filter>Source\ShootThemUp\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
