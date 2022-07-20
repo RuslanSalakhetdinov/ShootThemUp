@@ -1,2 +1,0 @@
-C:\Users\allesklar09\Unreal Projects\MyTestProjects\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\Definitions.ShootThemUp.h
-C:\Users\allesklar09\Unreal Projects\MyTestProjects\ShootThemUp\Source\ShootThemUp\ShootThemUp.h
