@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ShootThemUp.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{19F2E3E6-0020-4835-8630-D1AB6414C153}</UniqueIdentifier>
+      <UniqueIdentifier>{F03108E6-3C30-42C3-B82E-CE99FCABF267}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ShootThemUp.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,11 @@
     <None Include="..\..\Source\ShootThemUpEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.clang-format" />
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{B0AE7A75-1C75-4FA8-B4BA-34DE6DA130B4}</UniqueIdentifier>
+      <UniqueIdentifier>{E5031F92-4D55-403A-9075-546889C709DD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ShootThemUp">
-      <UniqueIdentifier>{B0A1C185-8394-438C-AC2B-A72B3AA1B1E4}</UniqueIdentifier>
+      <UniqueIdentifier>{34DB397B-0E54-4E6E-92AD-5F38596058C8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ShootThemUp\ShootThemUp.Build.cs">
       <Filter>Source\ShootThemUp</Filter>
@@ -36,13 +39,13 @@
       <Filter>Source\ShootThemUp</Filter>
     </ClInclude>
     <Filter Include="Source\ShootThemUp\Private">
-      <UniqueIdentifier>{01522643-CE48-4467-BE7C-4E6CD5C1D4F4}</UniqueIdentifier>
+      <UniqueIdentifier>{B3AB7C82-E1D4-4CF6-B666-6354B103AE68}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShootThemUp\Private\STUGameModeBase.cpp">
       <Filter>Source\ShootThemUp\Private</Filter>
     </ClCompile>
     <Filter Include="Source\ShootThemUp\Public">
-      <UniqueIdentifier>{9D6DF054-FE9C-41A3-85D4-60EC87478274}</UniqueIdentifier>
+      <UniqueIdentifier>{CB9E52AE-BF76-4067-9449-1147F6BE9748}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShootThemUp\Public\STUGameModeBase.h">
       <Filter>Source\ShootThemUp\Public</Filter>
