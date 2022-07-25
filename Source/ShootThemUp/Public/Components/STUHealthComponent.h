@@ -26,19 +26,24 @@ public:
 	float GetHealth() const { return Health; }
 
 protected:
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health", meta = (ClampMin = "0.0", ClampMax = "1000.0"))
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health",
+		meta = (ClampMin = "0.0", ClampMax = "1000.0"))
 	float MaxHealth = 100.0f;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Heal", meta = (ClampMin = "0.0", ClampMax = "1000.0"))
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Heal",
+		meta = (ClampMin = "0.0", ClampMax = "1000.0"))
 	bool AutoHeal = false;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Heal", meta = (ClampMin = "0.0", ClampMax = "10.0", EditCondition = "AutoHeal"))
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Heal",
+		meta = (ClampMin = "0.0", ClampMax = "10.0", EditCondition = "AutoHeal"))
 	float HealUpdateTime = 0.3f;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Heal", meta = (ClampMin = "0.0", ClampMax = "100.0", EditCondition = "AutoHeal"))
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Heal",
+		meta = (ClampMin = "0.0", ClampMax = "100.0", EditCondition = "AutoHeal"))
 	float HealDelay = 3.0f;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Heal", meta = (ClampMin = "0.0", ClampMax = "1000.0", EditCondition = "AutoHeal"))
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Heal",
+		meta = (ClampMin = "0.0", ClampMax = "1000.0", EditCondition = "AutoHeal"))
 	float HealModifier = 1.0f;
 
 	virtual void BeginPlay() override;
